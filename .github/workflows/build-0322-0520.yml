@@ -1,4 +1,4 @@
-name: Build 0322 0521
+name: Build 0322 0520
 
 on:
   workflow_dispatch:
@@ -321,7 +321,7 @@ jobs:
           CONFIG_PACKAGE_*proxy*=n
           CONFIG_PACKAGE_*vpn*=n
 
-          # CONFIG_USE_LLVM_BUILD=y
+          CONFIG_USE_LLVM_BUILD=y
 
           EOF
 
